@@ -1,6 +1,13 @@
-.texto_articulo
+.titulo_articulo2
 {
-	color: #00FFD2;
+	color: #3374FF;
 	font-size:22 px;
-	font-family: Barrio, Arial, sans-serif;
+	font-family: Lora, Arial, sans-serif;
+}
+
+.titulo_articulo
+{
+	color: #0F5E04;
+	font-size:22 px;
+	font-family: PT+Sans, Arial, sans-serif;
 }
