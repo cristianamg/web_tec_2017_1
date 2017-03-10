@@ -1,0 +1,23 @@
+<html ng-app='app'>
+  <head>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <title>Firebase and Angular Testing</title>
+    <meta charset="utf-8">
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+
+  </head>
+  
+  
+  <body>
+
+<div ng-app="acumuladorApp" ng-controller="acumuladorAppCtrl as vm">
+  <h1>Acumulador</h1>
+  <h2>Control de operación:</h2>
+  ¿Cuánto? <input type="text" ng-model="vm.cuanto" size="4" />
+  <br />
+  <input type="button" value="+" ng-click="vm.sumar()"/>
+  <input type="button" value="-" ng-click="vm.restar()"/>
+  <h2>Totales:</h2>
+  En el acumulador llevamos <span>{{vm.total}}</span>
+</div>
+     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
